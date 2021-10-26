@@ -6,7 +6,7 @@
             <div id="card">
                 <ul>
                     <li>
-                        <img src="{{$card ['thumb]}}" alt="">
+                        <img src="{{$card ['thumb']}}" alt="">
                         <a href="">{{$card ["title"]}}</a>
                     </li>
                 </ul>

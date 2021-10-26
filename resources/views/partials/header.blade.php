@@ -5,7 +5,10 @@
 
         <ul>
             <li>
-                <a href="{{ route('comics') }}">Home</a>
+                <a href="#">Carachters</a>
+            </li>
+            <li>
+                <a href="{{ route('comics') }}">Comics</a>
             </li>
             <li>
                 <a href="{{ route('movies') }}">Movies</a>
