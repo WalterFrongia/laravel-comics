@@ -7,7 +7,7 @@
                 <ul>
                     <li>
                         <img src="{{$card ['thumb']}}" alt="">
-                        <a href="">{{$card ["title"]}}</a>
+                        <a href="{{route('card',$loop -> index)}}">{{$card ["title"]}}</a>
                     </li>
                 </ul>
             </div>

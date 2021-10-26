@@ -18,6 +18,12 @@ Route::get('/', function () {
     return view('comics', ["cards"=>$comics]);
 })->name('comics');
 
+Route::get('/card/{id}', function ($id) { //id preso per ciclare dentro array in comics.php 
+    $comics = config("comics");           
+    return view('card', ["card"=>$comics[$id]]);
+})->name('card');
+
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');
+
