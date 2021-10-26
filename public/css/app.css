@@ -1,0 +1,11 @@
+header #header-container {
+  margin: auto;
+  width: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
