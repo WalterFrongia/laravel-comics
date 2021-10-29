@@ -1,13 +1,13 @@
 header{
+    #nav-container{
         margin:auto;
-        width:70%;
-    #header-container{
+        width:80%;
+        padding-top: 10px;
+
         display: flex;
         align-items: center;
-        img{
-            padding:10px 100px 0 0 ;
-        }
-
+        justify-content: space-between;
+        
         ul{
             display: flex;
 
@@ -21,6 +21,10 @@ header{
                 }
             }
         }
+    }
+    #jumbotron-container{
+        background-image: url(/images/jumbotron.jpg);
+        height: 200px;
     }
 
 }

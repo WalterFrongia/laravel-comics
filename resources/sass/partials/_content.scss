@@ -1,25 +1,29 @@
 .content-section{
 
     margin:auto;
-    width:70%;
+    width:80%;
     display: flex;
     flex-wrap: wrap;
+
     #card{
-        height: 300px;
-        width: 250px;
         margin-bottom: 30px;
         display: flex;
         flex-basis: calc( 100% / 6);
+        
+        ul{
+            list-style-type: none;
+            li{
+                height: 250px;
+                width: 250px;
+            }
+            a{
+                 text-decoration: none;
+            }
 
-        img{
-            height: 100%;
-            width: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+            }
         }
-    }
-    ul{
-       list-style-type: none;
-       a{
-            text-decoration: none;
-       }
     }
 }
