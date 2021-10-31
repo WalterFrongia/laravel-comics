@@ -4,8 +4,22 @@
 @import "partials/content";
 @import "partials/card";
 
+// IMPORT GOOGLE FONT
+    // Regular 400
+    // Medium 500
+    // Semi-bold 600
+    // Bold 700
+    // Extra-bold 800 
+    // font-family: 'Open Sans', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin:0; 
     padding:0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }

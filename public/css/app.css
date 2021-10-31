@@ -1,4 +1,4 @@
-header #nav-container {
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap);header #nav-container {
   margin: auto;
   width: 80%;
   padding: 10px 0 20px 0;
@@ -16,6 +16,7 @@ header #nav-container ul li {
 header #nav-container ul li a {
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
 }
 header #jumbotron-container {
   background-image: url(/images/jumbotron.jpg);
@@ -76,4 +77,9 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
 }
