@@ -1,7 +1,7 @@
 header #nav-container {
   margin: auto;
   width: 80%;
-  padding-top: 10px;
+  padding: 10px 0 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,7 +55,7 @@ footer {
 
 .card-container {
   margin: auto;
-  width: 75%;
+  width: 80%;
 }
 .card-container img {
   padding: 60px 0 50px 0;

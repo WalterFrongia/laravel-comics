@@ -1,8 +1,8 @@
 header{
     #nav-container{
         margin:auto;
-        width:80%;
-        padding-top: 10px;
+        width: $margin-width;
+        padding: 10px 0 20px 0;
 
         display: flex;
         align-items: center;
