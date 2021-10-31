@@ -38,7 +38,7 @@
             </ul>
         </div>
         <div id="jumbotron-container">
-
+            <button>CURRENT SERIES</button>
         </div>
     </div>
 </header>
