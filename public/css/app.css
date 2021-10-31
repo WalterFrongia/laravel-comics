@@ -48,9 +48,16 @@ footer {
 #content-wrapping .content-section #card ul {
   list-style-type: none;
 }
+#content-wrapping .content-section #card ul li {
+  height: 200px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
 #content-wrapping .content-section #card ul a {
   text-decoration: none;
   color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
 }
 #content-wrapping .content-section #card ul img {
   height: 100%;
