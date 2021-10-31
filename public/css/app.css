@@ -82,6 +82,19 @@ footer {
   height: 100%;
   width: 100%;
 }
+#content-wrapping #button-container {
+  display: flex;
+  justify-content: center;
+}
+#content-wrapping #button-container button {
+  display: flex;
+  align-self: center;
+  background-color: #006eff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-weight: 800;
+}
 
 .card-container {
   margin: auto;
