@@ -20,7 +20,9 @@ header #nav-container ul li a {
 }
 header #jumbotron-container {
   background-image: url(/images/jumbotron.jpg);
-  height: 200px;
+  background-size: cover;
+  background-position: inherit;
+  padding: 200px 0;
 }
 
 footer {
