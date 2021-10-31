@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends("layouts.main")
 
-@section('content')
+@section("content")
     <div id="content-wrapping">
         <div class="content-section">
             <button>CURRENT SERIES</button>

@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends("layouts.main")
 
-@section('content')
+@section("content")
 
     <div class="card-container">
         <img src="{{$card ['thumb']}}" alt="">

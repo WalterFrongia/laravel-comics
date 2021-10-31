@@ -1,4 +1,5 @@
 header{
+    
     #nav-container{
         margin:auto;
         width: $margin-width;
@@ -35,7 +36,7 @@ header{
         background-image: url(/images/jumbotron.jpg);
         background-size: cover;
         background-position:inherit;
-        padding:200px 0;
+        height:350px;
     }
 
 }
