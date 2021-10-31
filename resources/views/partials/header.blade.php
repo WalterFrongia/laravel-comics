@@ -2,7 +2,7 @@
 
     <div id="header-container">
         <div id="nav-container">
-            <img src="images/dc-logo.png" alt="">
+            <img src="/images/dc-logo.png" alt="">
 
             <ul>
                 <li>
