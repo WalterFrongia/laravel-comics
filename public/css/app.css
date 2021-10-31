@@ -12,11 +12,18 @@ header #nav-container ul {
 }
 header #nav-container ul li {
   padding: 5px;
+  border-bottom: 10px solid transparent;
 }
 header #nav-container ul li a {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding-bottom: 50px;
+}
+header #nav-container ul li a:hover {
+  border-bottom: 10px solid #006eff;
+  color: #006eff;
 }
 header #jumbotron-container {
   background-image: url(/images/jumbotron.jpg);
@@ -103,5 +110,4 @@ footer {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 800;
 }

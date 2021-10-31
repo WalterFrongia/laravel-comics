@@ -13,12 +13,20 @@ header{
 
             list-style-type: none;
             li{
-                padding:5px;
+                padding: 5px;
+                border-bottom: 10px solid transparent;
                 
                 a{
                     text-decoration: none;
                     color:black;
-                    font-size: 1.2rem;
+                    font-weight: 700;
+                    font-size: 1.3rem;
+                    padding-bottom: 50px;
+
+                    &:hover{
+                        border-bottom: 10px solid rgb(0, 110, 255);
+                        color:rgb(0, 110, 255);
+                    }
                 }
             }
         }
