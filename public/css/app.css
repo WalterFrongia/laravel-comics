@@ -28,28 +28,29 @@ footer {
   width: 80%;
 }
 
-.content-section {
+#content-wrapping {
+  background-color: #222222;
+  padding: 50px 0;
+}
+#content-wrapping .content-section {
   margin: auto;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
-.content-section #card {
+#content-wrapping .content-section #card {
   margin-bottom: 30px;
   display: flex;
   flex-basis: 16.6666666667%;
 }
-.content-section #card ul {
+#content-wrapping .content-section #card ul {
   list-style-type: none;
 }
-.content-section #card ul li {
-  height: 250px;
-  width: 250px;
-}
-.content-section #card ul a {
+#content-wrapping .content-section #card ul a {
   text-decoration: none;
+  color: white;
 }
-.content-section #card ul img {
+#content-wrapping .content-section #card ul img {
   height: 100%;
   width: 100%;
 }
