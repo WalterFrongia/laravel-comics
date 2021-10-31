@@ -3,6 +3,7 @@
 @section('content')
     <div id="content-wrapping">
         <div class="content-section">
+            <button>CURRENT SERIES</button>
             @foreach ($cards as $card)
                 <div id="card">
                     <ul>

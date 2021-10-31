@@ -30,18 +30,6 @@ header #jumbotron-container {
   background-size: cover;
   background-position: inherit;
   padding: 200px 0;
-  position: relative;
-}
-header #jumbotron-container button {
-  background-color: #006eff;
-  color: white;
-  padding: 10px 25px;
-  border: none;
-  font-size: 1.2rem;
-  font-weight: 800;
-  position: absolute;
-  bottom: -20px;
-  left: 120px;
 }
 
 footer {
@@ -54,10 +42,22 @@ footer {
   padding: 50px 0;
 }
 #content-wrapping .content-section {
+  position: relative;
   margin: auto;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
+}
+#content-wrapping .content-section button {
+  background-color: #006eff;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  position: absolute;
+  top: -70px;
+  left: -20px;
 }
 #content-wrapping .content-section #card {
   margin-bottom: 30px;
