@@ -1,4 +1,11 @@
 footer{
-    margin:auto;
-    width: $margin-width;
+
+    #footer-wrapping{
+        background-image: url(/images/footer-bg.jpg);
+        height: 500px;
+    }
+    #footer-container{
+        margin:auto;
+        width: $margin-width;
+    }
 }

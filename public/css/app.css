@@ -32,7 +32,11 @@ header #jumbotron-container {
   height: 350px;
 }
 
-footer {
+footer #footer-wrapping {
+  background-image: url(/images/footer-bg.jpg);
+  height: 500px;
+}
+footer #footer-container {
   margin: auto;
   width: 80%;
 }
