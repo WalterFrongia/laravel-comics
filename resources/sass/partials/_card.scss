@@ -78,4 +78,13 @@
             width:100%;
         }
     }
+
+    #info-section{
+        background-color: rgb(194, 191, 191);
+
+        #table-info-card{
+            margin:auto;
+            width:$margin-width;
+        }
+    }
 }

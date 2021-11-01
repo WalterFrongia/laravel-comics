@@ -156,6 +156,13 @@ footer {
   height: 100%;
   width: 100%;
 }
+#card-wrapping #info-section {
+  background-color: #c2bfbf;
+}
+#card-wrapping #info-section #table-info-card {
+  margin: auto;
+  width: 80%;
+}
 
 * {
   margin: 0;

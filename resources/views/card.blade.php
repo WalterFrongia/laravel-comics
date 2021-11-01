@@ -28,13 +28,15 @@
             <div id="container-banner-img">
                 <img id="img-banner" src="/images/adv.jpg" alt="">
             </div>
-
-            <!-- <div class="info-section">
-                <p>Series: {{$card['type']}}</p>
-                @foreach ($card ["writers"] as $writer )
-                    <p>Written by: {{$writer}} </p>
-                @endforeach
-            </div> -->
+        </div>
+        <div id="info-section">
+                <div id="table-info-card">
+                    <p>Series: {{$card['type']}}</p>
+                    @foreach ($card ["writers"] as $writer )
+                        <p>Written by: {{$writer}} </p>
+                    @endforeach
+                </div>        
+            </div>
         </div>
     </div>
 @endsection
