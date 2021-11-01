@@ -31,10 +31,46 @@
         </div>
         <div id="info-section">
                 <div id="table-info-card">
-                    <p>Series: {{$card['type']}}</p>
-                    @foreach ($card ["writers"] as $writer )
-                        <p>Written by: {{$writer}} </p>
-                    @endforeach
+                    <div id="talent-container">
+                        <h1>Talent</h1>
+                        <div id="art-container">
+                            <p>Art by:</p>
+                            <div id="artist-container">
+                                @foreach ($card ["artists"] as $artist )
+                                    <span>{{$artist}},</span>
+                                @endforeach
+                            </div>
+                        </div>
+                        <div id="write-container">
+                            <p>Written by:</p>
+                            <div id="written-container">
+                                @foreach ($card ["writers"] as $writer )
+                                    <span>{{$writer}},</span>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+                    <div id="specs-container">
+                        <h1>Specs</h1> 
+                        <div class="series-container">
+                            <p>Series:</p>
+                            <div class="series-content">
+                                <span id="title-blue">{{$card['title']}}</span>
+                            </div>
+                        </div>
+                        <div class="series-container">
+                            <p>U.S. Price:</p>
+                            <div id="price-content">
+                                <span>{{$card['price']}}</span>
+                            </div>
+                        </div>
+                        <div class="series-container">
+                            <p>On Sale Date:</p>
+                            <div id="sale-date">
+                                <span>{{$card['sale_date']}}</span>
+                            </div>
+                        </div>              
+                    </div>
                 </div>        
             </div>
         </div>

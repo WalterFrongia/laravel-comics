@@ -157,11 +157,76 @@ footer {
   width: 100%;
 }
 #card-wrapping #info-section {
-  background-color: #c2bfbf;
+  background-color: #dbdada;
+  padding: 20px 0 80px 0;
+  border-top: 2px solid #cac8c8;
+  border-bottom: 2px solid #cac8c8;
 }
 #card-wrapping #info-section #table-info-card {
   margin: auto;
   width: 80%;
+  display: flex;
+}
+#card-wrapping #info-section #table-info-card span {
+  font-weight: 600;
+}
+#card-wrapping #info-section #table-info-card #talent-container {
+  width: 50%;
+  padding-right: 80px;
+}
+#card-wrapping #info-section #table-info-card #talent-container h1 {
+  padding: 20px 0;
+  color: #22226d;
+  border-bottom: 2px solid #cac8c8;
+}
+#card-wrapping #info-section #table-info-card #talent-container p {
+  padding-bottom: 20px;
+  color: #22226d;
+  font-weight: 500;
+}
+#card-wrapping #info-section #table-info-card #talent-container #art-container, #card-wrapping #info-section #table-info-card #talent-container #write-container {
+  display: flex;
+  align-items: stretch;
+  padding: 20px 0;
+  border-bottom: 2px solid #cac8c8;
+}
+#card-wrapping #info-section #table-info-card #talent-container #art-container #artist-container, #card-wrapping #info-section #table-info-card #talent-container #write-container #artist-container {
+  padding-left: 100px;
+  color: #388bf8;
+}
+#card-wrapping #info-section #table-info-card #talent-container #art-container #written-container, #card-wrapping #info-section #table-info-card #talent-container #write-container #written-container {
+  padding-left: 70px;
+  color: #388bf8;
+}
+#card-wrapping #info-section #table-info-card #specs-container {
+  width: 50%;
+}
+#card-wrapping #info-section #table-info-card #specs-container h1 {
+  padding: 20px 0;
+  border-bottom: 2px solid #cac8c8;
+  color: #22226d;
+}
+#card-wrapping #info-section #table-info-card #specs-container p {
+  color: #22226d;
+  font-weight: 500;
+}
+#card-wrapping #info-section #table-info-card #specs-container span {
+  padding-right: 100px;
+}
+#card-wrapping #info-section #table-info-card #specs-container #title-blue {
+  color: #388bf8;
+  text-transform: uppercase;
+}
+#card-wrapping #info-section #table-info-card #specs-container .series-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 2px solid #cac8c8;
+}
+#card-wrapping #info-section #table-info-card #specs-container .series-container #series-content {
+  padding-left: 100px;
+  color: #388bf8;
 }
 
 * {
