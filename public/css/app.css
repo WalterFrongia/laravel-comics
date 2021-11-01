@@ -96,6 +96,21 @@ footer {
   font-weight: 800;
 }
 
+#card-wrapping #bar-blue {
+  height: 70px;
+  background-color: #388bf8;
+}
+#card-wrapping #content-info-card {
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
+#card-wrapping #content-info-card img {
+  border: 2px solid white;
+  position: absolute;
+  top: -320px;
+}
+
 * {
   margin: 0;
   padding: 0;

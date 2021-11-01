@@ -2,17 +2,25 @@
 
 @section("content")
     <div id="card-wrapping">
-        <div class="card-container">
-            <img src="{{$card ['thumb']}}" alt="">
-            <h1>{{$card['title']}}</h1>
-            <p>U.S. Price:{{$card['price']}}</p>
-            <p>{{$card['description']}}</p>
-        </div>
-        <div class="info-section">
-            <p>Series: {{$card['type']}}</p>
-            @foreach ($card ["writers"] as $writer )
-                <p>Written by: {{$writer}} </p>
-            @endforeach
+
+        <div id="bar-blue"></div>
+
+        <div id="content-info-card">
+
+            <div class="card-container">
+
+                <img src="{{$card ['thumb']}}" alt="">
+                <h1>{{$card['title']}}</h1>
+                <p>U.S. Price:{{$card['price']}}</p>
+                <p>{{$card['description']}}</p>
+            </div>
+            
+            <div class="info-section">
+                <p>Series: {{$card['type']}}</p>
+                @foreach ($card ["writers"] as $writer )
+                    <p>Written by: {{$writer}} </p>
+                @endforeach
+            </div>
         </div>
     </div>
 @endsection

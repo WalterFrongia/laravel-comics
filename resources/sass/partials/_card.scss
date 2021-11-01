@@ -1,3 +1,21 @@
 #card-wrapping{
     
+    #bar-blue{
+        height: 70px;
+        background-color: rgb(56, 139, 248);;
+    }
+
+    #content-info-card{
+        margin:auto;
+        width:$margin-width;
+
+        position:relative;
+
+        img{
+            border:2px solid white;
+            
+            position:absolute;
+            top:-320px
+        }
+    }
 }
