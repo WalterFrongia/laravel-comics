@@ -103,12 +103,58 @@ footer {
 #card-wrapping #content-info-card {
   margin: auto;
   width: 80%;
+  padding: 80px 0;
   position: relative;
+  display: flex;
 }
-#card-wrapping #content-info-card img {
+#card-wrapping #content-info-card #comic-img {
   border: 2px solid white;
   position: absolute;
   top: -320px;
+}
+#card-wrapping #card-container {
+  width: 70%;
+}
+#card-wrapping #card-container h1 {
+  color: #22226d;
+  text-transform: uppercase;
+}
+#card-wrapping #card-container #container-banner-price-ceck {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#card-wrapping #card-container #container-banner-price-ceck #price-container {
+  padding: 15px;
+  background-color: #029202;
+  width: 70%;
+  border-bottom: 1px solid black;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+#card-wrapping #card-container #container-banner-price-ceck #price-container p {
+  color: #70c770;
+}
+#card-wrapping #card-container #container-banner-price-ceck #price-container span {
+  color: white;
+}
+#card-wrapping #card-container #container-banner-price-ceck #check-container {
+  padding: 15px;
+  background-color: #029202;
+  width: 20%;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#card-wrapping #card-container #container-banner-price-ceck #check-container p {
+  color: white;
+}
+#card-wrapping #card-container #description-container {
+  width: 90%;
+}
+#card-wrapping #container-banner-img #img-banner {
+  height: 100%;
+  width: 100%;
 }
 
 * {

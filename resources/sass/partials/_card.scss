@@ -9,13 +9,73 @@
         margin:auto;
         width:$margin-width;
 
+        padding:80px 0;
+
         position:relative;
 
-        img{
+        display: flex;
+
+        #comic-img{
             border:2px solid white;
-            
+
             position:absolute;
             top:-320px
+        }
+    }
+
+    #card-container{
+        
+        width:70%;
+        h1{
+            color:rgb(34, 34, 109);
+            text-transform: uppercase;
+
+        }
+        #container-banner-price-ceck{
+            display: flex;
+
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+            #price-container{
+                padding:15px;
+                background-color: rgb(2, 146, 2);
+                width:70%;
+                border-bottom:1px solid black;
+    
+                font-weight: 600;
+    
+                display: flex;
+                justify-content: space-between;
+                p{
+                    color:rgb(112, 199, 112);
+                }
+                span{
+                    color:white;
+                }
+            }
+            #check-container{
+                padding:15px;
+                background-color: rgb(2, 146, 2);
+                width: 20%;
+                
+                border-left: 1px solid black;
+                border-bottom:1px solid black;;
+                p{
+                    color:white;
+                }
+            }
+        }
+
+        #description-container{
+            
+            width: 90%;
+        }
+    }
+    #container-banner-img{
+        #img-banner{
+            height: 100%;
+            width:100%;
         }
     }
 }
